@@ -1,0 +1,253 @@
+body {
+    background-color: var(--whiteLilac);
+}
+
+.container {
+    width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 15px 45px rgba(24, 27, 121, 0.05);
+}
+
+.header {
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #EFEFFF;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-link {
+    display: flex;
+    padding: 10px 15px;
+    color: var(--primary);
+    opacity: .7;
+}
+
+.navbar-link.active {
+    background-color: #F1F1FD;
+    border-radius: 32px;
+    opacity: 1;
+}
+
+.navbar-link:hover {
+    opacity: 1;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCFCFF;
+}
+
+.search-section .content {
+    width: 650px;
+    padding: 90px 0 120px;
+}
+
+.search-section .content h3,
+.search-section .content p {
+    text-align: center;
+}
+
+.search-section .content h3 {
+    font-size: 22px;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.search-section .content p {
+    font-size: 18px;
+    line-height: normal;
+    margin-bottom: 38px;
+    padding: 0 35px;
+    color: var(--primary);
+}
+
+.search-section .content .form {
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 16px 35px -15px rgba(2, 5, 132, 0.15);
+    border: 1px solid #EFEFFF;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search-section .content .form select {
+    appearance: none;
+    padding: 5px 35px 5px 5px;
+    border: none;
+    
+}
+
+.search-section .content .form .form-element {
+    border-right: 1px solid #EFEFFF;
+    padding: 11px 15px;
+    margin-right: 18px;
+}
+
+.search-section .content .form .form-element label {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-section .content .form .form-element label .icon {
+    position: absolute;
+    right: 0;
+}
+
+.search-section .content .form .input-element {
+    display: flex;
+    flex-grow: 1;
+}
+
+.search-section .content .form .input-element input {
+    flex-grow: 1;
+    border: none;
+    margin-left: 10px;
+}
+
+.card-container {
+    padding: 50px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.card-header .order {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #FCFCFF;
+    border: 1px solid #EFEFFF;
+    border-radius: 70px;
+}
+
+.card-header .order a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    color: var(--primary);
+    opacity: .6;
+}
+
+.card-header .order a.active,
+.card-header .tab a.active {
+    background-color: #FFF;
+    border: 1px solid #EFEFFF;
+    border-radius: 45px;
+    opacity: 1;
+}
+
+.card-header .tab {
+    display: flex;
+    align-items: center;
+}
+
+.card-header .tab a {
+    display: inline-flex;
+    padding: 10px 15px;
+    color: var(--primary);
+    opacity: .7;
+}
+
+.card-header .tab a.active {
+    background-color: #FCFCFF;
+}
+
+.card-header .icons {
+    display: flex;
+}
+
+.card-header .icons .design-icon:not(:last-child) {
+    margin-right: 15px;
+}
+
+.card-header .icons .design-icon.active {
+    border-color: #FF6A95;
+}
+
+.design-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCFCFF;
+    border: 1px solid #EFEFFF;
+    border-radius: 50%;
+}
+
+
+.card-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+
+.card-item {
+    width: calc((100% - (33px * 2)) / 3);
+}
+
+
+.card-item figure {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.card-item figure .design-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.card-item-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-item-author {
+    display: flex;
+    align-items: center;
+}
+
+.card-item-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.card-item-icon {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card-item-icon span {
+    display: flex;
+    align-items: center;
+}
+
+.card-item-icon span:not(:last-child) {
+    margin-right: 20px;
+}
+
+.card-item-icon span .icon {
+    margin-right: 5px;
+}

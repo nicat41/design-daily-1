@@ -1,0 +1,31 @@
+.icon {
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-sm {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-search {
+    background-image: url('../icons/search.svg');
+}
+
+.icon-chevron-down {
+    background-image: url('../icons/chevron-down.svg');
+}
+
+.icon-code {
+    background-image: url('../icons/code.svg');
+}
+
+.icon-pray {
+    background-image: url('../icons/pray.svg');
+}
